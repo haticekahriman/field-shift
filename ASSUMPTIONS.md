@@ -1,0 +1,5 @@
+# Assumptions and validation limits
+
+Farm plots, areas, soil storage, starting water and the cereal and legume targets are illustrative teaching inputs. Targets count planted plot-seasons and do not estimate tonnes produced. The water budget is 2,400 m³ per season in single-farm mode, and 4,900 m³ across all farms per season in shared mode. Rain input is 78% of daily precipitation, and modeled irrigation application efficiency is 100%. Bare-soil demand is capped at a fixed illustrative 0.45 mm/day.
+
+Planting and harvest dates, crop coefficients, stage shares and thermal thresholds are in config.mjs. Wheat and barley use longer early stages and their sensitive stages occur in spring. Local experts have yet to validate these values. Hargreaves ET0 is a temperature-based approximation with astronomical radiation calculated from latitude and day of year. It is not calibrated locally. No actual soil measurements, yield, profit or measured water conservation are claimed. Crop-family repetition and uncovered plot-days are reported as indicators. Learning outcomes and on-farm outcomes have yet to be measured.
